@@ -89,7 +89,7 @@ nav > a:hover {
 aside {
   margin: -10px;
   line-height: 2em;
-  background-color: darkcyan;
+  background-image: url(imagens/imag.jpg);
 }
 aside ol {
   columns: 2;
