@@ -22,19 +22,17 @@ header p {
 main {
   background-color: white;
   box-shadow: 0px 0px 10px black;
-  min-width: 320px;
-  max-width: 800px;
   padding: 10px;
+  min-width: 320px;
+  max-width: 1300px;
   text-align: justify;
   margin: auto;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 main h2 {
-  background-color: skyblue;
   margin: 0px -10px 20px -10px;
-  padding-right: 15px;
-  padding-left: 15px;
+
+  padding bottom: 20px;
+  padding: 20px;
 }
 main p {
   margin: 15px 0px;
@@ -87,7 +85,7 @@ nav > a:hover {
   border-radius: 7px;
 }
 aside {
-  margin: -10px;
+  
   line-height: 2em;
   background-image: url(imagens/imag.png);
 }
@@ -99,30 +97,26 @@ aside ol {
 }
 
 footer {
-  background-color: white;
-  box-shadow: 0px 0px 10px black;
-  border-radius: 10px;
-  margin: 8px;
+  background-image: linear-gradient(to bottom, blue, darkblue);
 }
 
 footer a {
   text-decoration: none;
-  padding: 10px;
 }
 footer img {
-  width: 25px;
-  padding: 10px;
+  width: 20px;
+  padding: 20px;
   margin: auto;
 }
 div.logorodape {
   text-align: center;
 }
 footer img:hover {
-  background-color: darkcyan;
-  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
 }
 
-@media (max-width: 678px) {
+@media (max-width: 600px) {
   aside ol {
     columns: 1;
     margin: 0px;
