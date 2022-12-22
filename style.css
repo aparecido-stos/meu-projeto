@@ -49,8 +49,7 @@ div.imagens {
 }
 div.video {
   background-color:darkblue;
-  margin: 0px -20px 30px -10px;
-  padding: 20px;
+  margin: 0px -10px 30px -10px;
   position: relative;
   padding-bottom: 59%;
 }
@@ -83,6 +82,7 @@ nav > a:hover {
   padding: 10px;
   border-radius: 7px;
 }
+
 aside {
   
   line-height: 2em;
