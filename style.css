@@ -19,7 +19,7 @@ header p {
   color: white;
   text-shadow: 2px 2px 0px black;
 }
-main {
+main#menu {
   background-color: white;
   box-shadow: 0px 0px 10px black;
   padding: 10px;
@@ -30,7 +30,6 @@ main {
 }
 main h2 {
   margin: 0px -10px 20px -10px;
-
   padding bottom: 20px;
   padding: 20px;
 }
@@ -49,8 +48,8 @@ div.imagens {
   display: flex;
 }
 div.video {
-  background-color: darkcyan;
-  margin: 0px -10px 30px -10px;
+  background-color:darkblue;
+  margin: 0px -20px 30px -10px;
   padding: 20px;
   position: relative;
   padding-bottom: 59%;
@@ -87,13 +86,24 @@ nav > a:hover {
 aside {
   
   line-height: 2em;
-  background-image: url(imagens/imag.png);
+  
+}
+
+aside a {
+  text-decoration: none;
+  color: #000;
+  
+}
+aside a:hover{
+color: red;
+
 }
 aside ol {
   columns: 2;
   margin: 22px;
-  padding: 62px;
-  font-size: 18px;
+  padding: 50px;
+  font-size: 17px;
+  
 }
 
 footer {
