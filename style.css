@@ -114,10 +114,11 @@ footer a {
   text-decoration: none;
 }
 footer img {
-  width: 15px;
+  width: 18px;
   padding: 20px;
   margin: auto;
 }
+
 div.logorodape {
   text-align: center;
 }
@@ -126,10 +127,10 @@ footer img:hover {
   border-radius: 30px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 500px) {
   aside ol {
     columns: 1;
     margin: 0px;
-    padding: 50px;
+    padding: 40px;
   }
 }
