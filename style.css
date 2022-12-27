@@ -113,12 +113,13 @@ footer {
 footer a {
   text-decoration: none;
 }
-footer img {
-  width: 18px;
-  padding: 20px;
-  margin: auto;
+footer p{
+  padding-bottom: 30px;
 }
-
+footer img {
+  width: 20px;
+  padding: 30px;
+}
 div.logorodape {
   text-align: center;
 }
@@ -131,6 +132,6 @@ footer img:hover {
   aside ol {
     columns: 1;
     margin: 0px;
-    padding: 40px;
+    padding: 50px;
   }
 }
