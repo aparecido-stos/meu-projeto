@@ -93,7 +93,8 @@ nav > a:hover {
 
 aside {
   
-  line-height: 2em;
+  line-height:55px;
+  
   
 }
 
@@ -110,7 +111,7 @@ aside ol {
   columns: 2;
   margin: 22px;
   padding: 50px;
-  font-size: 17px;
+  font-size: 15px;
   
 }
 
