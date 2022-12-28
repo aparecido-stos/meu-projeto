@@ -43,6 +43,14 @@ main p {
 main img {
   width: 50%;
 }
+.bt{
+  padding:20px;
+  
+}
+.menu{
+  padding: 10px;
+}
+  
 div.imagens {
   text-align: center;
   display: flex;
