@@ -123,6 +123,7 @@ footer a {
 }
 footer p{
   padding-bottom: 20px;
+  color: aliceblue;
 }
 footer img {
   width: 20px;
@@ -131,6 +132,7 @@ footer img {
 div.logorodape {
   text-align: center;
 }
+
 footer img:hover {
   background-color: rgb(255, 255, 255);
   border-radius: 30px;
