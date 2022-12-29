@@ -68,6 +68,12 @@ div.video > iframe {
   width: 90%;
   height: 90%;
 }
+div.audio{
+  text-align: center;
+}
+p.audio{
+  text-align: center;
+}
 header {
   text-align: center;
   padding: 50px;
