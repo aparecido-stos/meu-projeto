@@ -68,11 +68,20 @@ div.video > iframe {
   width: 90%;
   height: 90%;
 }
-div.audio{
+div.hot98{
   text-align: center;
 }
+  
+div.paripiranga{
+    text-align: center;
+}
+
 p.audio{
   text-align: center;
+}
+iframe.capa{
+  background-image: url(imagens/imagens-capa-radio/hot98.png);
+
 }
 header {
   text-align: center;
