@@ -21,7 +21,6 @@ main#menu {
   padding: 10px;
   min-width: 300px;
   max-width: 1300px;
-  text-align: justify;
   margin: auto;
 }
 main h2 {
@@ -150,7 +149,7 @@ footer img:hover {
   border-radius: 30px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 615px) {
   aside ol {
     columns: 1;
     margin: 0px;
@@ -159,9 +158,6 @@ footer img:hover {
 }
 
 body {
-  font-size: 15pt;
-  padding: 10px;
-  margin: 5px;
   background-image: url(https://www.significadofacil.com/wp-content/uploads/2019/07/background-1200x800.jpg);
 }
 header{
