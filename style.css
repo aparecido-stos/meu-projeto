@@ -74,31 +74,26 @@ div.paripiranga{
 p.audio{
   text-align: center;
 }
-iframe.capa{
-  background-image: url(imagens/imagens-capa-radio/hot98.png);
-
-}
+ 
 header {
   text-align: center;
   padding: 50px;
-  background-image: linear-gradient(to bottom, blue, darkblue);
 }
 nav {
-  background-color: darkblue;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px;
 }
 nav > a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 10px;
   font-weight: bolder;
 }
 nav > a:hover {
   background-color: white;
-  color: darkblue;
+  color: #000;
   padding: 10px;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 aside {
@@ -124,11 +119,6 @@ aside ol {
   font-size: 15px;
   
 }
-
-footer {
-  background-image: linear-gradient(to bottom, blue, darkblue);
-}
-
 footer a {
   text-decoration: none;
 }
