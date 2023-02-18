@@ -2,14 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Sedgwick+Ave&display=swap");
 
 * {
-  margin: 0px;
-  padding: 0px;
   font-style: italic;
   font-family: Georgia, Times, serif, sans-serif;
 }
-body {
-  background-color: white;
-}
+
 header h1 {
   text-shadow: 2px 2px 0px black;
   color: white;
@@ -160,4 +156,44 @@ footer img:hover {
     margin: 0px;
     padding: 50px;
   }
+}
+
+body {
+  font-size: 15pt;
+  padding: 10px;
+  margin: 5px;
+  background-image: url(https://www.significadofacil.com/wp-content/uploads/2019/07/background-1200x800.jpg);
+}
+header{
+  text-align: center;
+  font-size: 25px;
+}
+
+.inicial {
+  background: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+#botao {
+  width: 150px;
+  height: 30px;
+  background-color: skyblue;
+  color: white;
+  border-radius: 10px;
+}
+#botao:hover {
+  background-color: white;
+  color: black;
+
+}
+#res {
+  font-style: italic;
+  background: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+footer {
+  font-style: italic;
 }
