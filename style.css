@@ -6,26 +6,36 @@
   font-family: Georgia, Times, serif, sans-serif;
 }
 
+body {
+  background-image: url(https://dmhxz00kguanp.cloudfront.net/fotos/128919/papel-de-parede-folhas-fundo-verde-1m-x-1-70m-286924.jpg);
+}
+
+header {
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+}
+
 header h1 {
-  text-shadow: 2px 2px 0px black;
+  text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px -1px 0px black;
   color: white;
 }
+
 header p {
   padding-block: 30px;
   color: white;
-  text-shadow: 2px 2px 0px black;
+  text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px -1px 0px black;
 }
+
 main#menu {
-  background-color: white;
-  box-shadow: 0px 0px 10px black;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 1px black;
   padding: 10px;
   min-width: 300px;
   max-width: 1300px;
-  margin: auto;
 }
 main h2 {
   margin: 0px -10px 20px -10px;
-  padding bottom: 20px;
   padding: 20px;
 }
 main p {
@@ -63,37 +73,25 @@ div.video > iframe {
   width: 90%;
   height: 90%;
 }
-div.hot98{
-  text-align: center;
-}
-  
-div.paripiranga{
-    text-align: center;
-}
-
-p.audio{
-  text-align: center;
-}
  
-header {
-  text-align: center;
-  padding: 50px;
-}
 nav {
-  color: rgb(255, 255, 255);
   padding: 10px;
+  
 }
 nav > a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 10px;
   font-weight: bolder;
+  text-shadow: 1px 1px 0px black, 1px 1px 0px black, 1px 1px 0px black;
+  
 }
 nav > a:hover {
   background-color: white;
   color: #000;
   padding: 10px;
   border-radius: 10px;
+  text-shadow: 1px 1px 0px rgb(255, 255, 255), 1px 1px 0px rgb(255, 255, 255), 1px 1px 0px rgb(255, 255, 255);
 }
 
 aside {
@@ -147,13 +145,7 @@ footer img:hover {
   }
 }
 
-body {
-  background-image: url(https://www.significadofacil.com/wp-content/uploads/2019/07/background-1200x800.jpg);
-}
-header{
-  text-align: center;
-  font-size: 25px;
-}
+
 
 .inicial {
   background: white;
