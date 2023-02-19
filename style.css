@@ -24,7 +24,7 @@ header h1 {
 header p {
   padding-block: 30px;
   color: white;
-  text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px -1px 0px black;
+  text-shadow: 1px 1px 0px black, 1px -1px 0px black, 1px -1px 0px black;
 }
 
 main#menu {
@@ -33,6 +33,7 @@ main#menu {
   padding: 10px;
   min-width: 300px;
   max-width: 1300px;
+  margin: auto;
 }
 main h2 {
   margin: 0px -10px 20px -10px;
@@ -48,20 +49,19 @@ main p {
 main img {
   width: 50%;
 }
-.bt{
-  padding:20px;
-  
+.bt {
+  padding: 20px;
 }
-.menu{
+.menu {
   padding: 10px;
 }
-  
+
 div.imagens {
   text-align: center;
   display: flex;
 }
 div.video {
-  background-color:darkblue;
+  background-color: darkblue;
   margin: 0px -10px 30px -10px;
   position: relative;
   padding-bottom: 59%;
@@ -73,10 +73,9 @@ div.video > iframe {
   width: 90%;
   height: 90%;
 }
- 
+
 nav {
   padding: 10px;
-  
 }
 nav > a {
   color: rgb(255, 255, 255);
@@ -84,45 +83,40 @@ nav > a {
   padding: 10px;
   font-weight: bolder;
   text-shadow: 1px 1px 0px black, 1px 1px 0px black, 1px 1px 0px black;
-  
 }
 nav > a:hover {
   background-color: white;
   color: #000;
   padding: 10px;
   border-radius: 10px;
-  text-shadow: 1px 1px 0px rgb(255, 255, 255), 1px 1px 0px rgb(255, 255, 255), 1px 1px 0px rgb(255, 255, 255);
+  text-shadow: 1px 1px 0px rgb(255, 255, 255), 1px 1px 0px rgb(255, 255, 255),
+    1px 1px 0px rgb(255, 255, 255);
 }
 
 aside {
-  
-  line-height:55px;
-  
-  
+  line-height: 55px;
 }
 
 aside a {
   text-decoration: none;
   color: #000;
-  
 }
-aside a:hover{
-color: red;
-
+aside a:hover {
+  color: red;
 }
 aside ol {
   columns: 2;
   margin: 22px;
   padding: 50px;
   font-size: 15px;
-  
 }
 footer a {
   text-decoration: none;
 }
-footer p{
+footer p {
   padding-bottom: 20px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 0px black, 1px -1px 0px black, 1px -1px 0px black;
 }
 footer img {
   width: 20px;
@@ -145,8 +139,6 @@ footer img:hover {
   }
 }
 
-
-
 .inicial {
   background: white;
   padding: 10px;
@@ -163,7 +155,6 @@ footer img:hover {
 #botao:hover {
   background-color: white;
   color: black;
-
 }
 #res {
   font-style: italic;
