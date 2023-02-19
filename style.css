@@ -107,15 +107,12 @@ aside a:hover {
 }
 aside ol {
   columns: 2;
-  margin: 22px;
-  padding: 50px;
   font-size: 15px;
 }
 footer a {
   text-decoration: none;
 }
 footer p {
-  padding-bottom: 20px;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 0px black, 1px -1px 0px black, 1px -1px 0px black;
 }
@@ -124,11 +121,12 @@ footer img {
   padding: 20px;
 }
 div.logorodape {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer img:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(226, 219, 219, 0.8);
   border-radius: 30px;
 }
 
@@ -138,6 +136,19 @@ footer img:hover {
     margin: 0px;
     padding: 50px;
   }
+}
+.font{
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 0px black, 1px -1px 0px black, 1px -1px 0px black;
+
+}
+
+.radio{
+  display: flex;
+  flex-direction: column;
+  max-width: 615px;
+  margin: auto;
+
 }
 
 .inicial {
