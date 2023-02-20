@@ -18,22 +18,22 @@ header {
 }
 
 header h1 {
-  text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px -1px 0px black;
   color: white;
+  -webkit-text-stroke: 1.5px#000;
 }
 
 header p {
   padding-block: 30px;
   color: white;
-  text-shadow: 1px 1px 0px black, 1px -1px 0px black, 1px -1px 0px black;
+  -webkit-text-stroke: .7px#000;
 }
 
 main#menu {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 1px black;
-  padding: 10px;
   min-width: 300px;
   max-width: 1300px;
+  padding: 10px;
   margin: auto;
 }
 main h2 {
@@ -50,12 +50,6 @@ main p {
 main img {
   width: 50%;
 }
-.bt {
-  padding: 20px;
-}
-.menu {
-  padding: 10px;
-}
 
 div.imagens {
   text-align: center;
@@ -66,6 +60,7 @@ div.video {
   margin: 0px -10px 30px -10px;
   position: relative;
   padding-bottom: 59%;
+  
 }
 div.video > iframe {
   position: absolute;
@@ -83,7 +78,7 @@ nav > a {
   text-decoration: none;
   padding: 10px;
   font-weight: bolder;
-  text-shadow: 1px 1px 0px black, 1px 1px 0px black, 1px 1px 0px black;
+  -webkit-text-stroke: .6px#000;
 }
 nav > a:hover {
   background-color: white;
@@ -95,7 +90,7 @@ nav > a:hover {
 }
 
 aside {
-  line-height: 55px;
+  line-height: 50px;
 }
 
 aside a {
@@ -103,7 +98,7 @@ aside a {
   color: #000;
 }
 aside a:hover {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 aside ol {
   columns: 2;
@@ -126,7 +121,7 @@ div.logorodape {
 }
 
 footer img:hover {
-  background-color: rgba(226, 219, 219, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 30px;
 }
 
