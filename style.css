@@ -9,6 +9,7 @@
 body {
   margin: 0px;
   background-image: url(https://dmhxz00kguanp.cloudfront.net/fotos/128919/papel-de-parede-folhas-fundo-verde-1m-x-1-70m-286924.jpg);
+  background-position: right, center;
 }
 
 header {
@@ -25,7 +26,7 @@ header h1 {
 header p {
   padding-block: 30px;
   color: white;
-  -webkit-text-stroke: .7px#000;
+  -webkit-text-stroke: 0.7px#000;
 }
 
 main#menu {
@@ -60,7 +61,6 @@ div.video {
   margin: 0px -10px 30px -10px;
   position: relative;
   padding-bottom: 59%;
-  
 }
 div.video > iframe {
   position: absolute;
@@ -78,7 +78,7 @@ nav > a {
   text-decoration: none;
   padding: 10px;
   font-weight: bolder;
-  -webkit-text-stroke: .6px#000;
+  -webkit-text-stroke: 0.6px#000;
 }
 nav > a:hover {
   background-color: white;
@@ -132,18 +132,16 @@ footer img:hover {
     padding: 50px;
   }
 }
-.font{
+.font {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 0px black, 1px -1px 0px black, 1px -1px 0px black;
-
 }
 
-.radio{
+.radio {
   display: flex;
   flex-direction: column;
   max-width: 615px;
   margin: auto;
-
 }
 
 .inicial {
