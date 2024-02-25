@@ -43,11 +43,16 @@ nav > a:hover {
   padding: 0 20px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info h2 {
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
 }
 
 .contact-button {
@@ -74,4 +79,5 @@ footer {
   padding: 10px;
   bottom: 0;
   width: 100%;
+  position: fixed;
 }
