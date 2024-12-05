@@ -22,7 +22,7 @@ html, body {
 
 header {
   text-align: center;
-  padding: 40px;
+  padding: 2px;
   background-image: linear-gradient(to bottom,darkblue, #1D3557);
   position: relative;
 }
@@ -49,7 +49,6 @@ nav > a {
   font-weight: bolder;
   text-decoration: none; /* Remove o sublinhado dos links */
   padding: 10px 15px; /* Espaçamento interno para os links */
-  
 }
 
 nav > a:hover {
