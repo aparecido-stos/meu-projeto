@@ -79,26 +79,28 @@ nav > a:hover {
   header {
     text-align: center;
     padding: 2px;
-    background-image: linear-gradient(to bottom,darkblue, #1D3557);
+    background-image: linear-gradient(to bottom, darkblue, #1D3557);
     position: relative; /* Fixa a navbar na posição especificada */
     width: 100%; /* Navbar ocupa toda a largura */
-  
   }
 
   nav {
     display: flex; /* Ativa o Flexbox */
     justify-content: center; /* Centraliza os itens horizontalmente */
-    background-image: linear-gradient(to bottom,darkblue, #1D3557); /* Gradiente no fundo */
+    background-image: linear-gradient(to bottom, darkblue, #1D3557); /* Gradiente no fundo */
     padding: 10px 0; /* Espaçamento vertical */
     position: relative; /* Fixa a navbar na posição especificada */
     left: 0; /* Alinha ao início da página */
     width: 100%; /* Navbar ocupa toda a largura */
-  
   }
 
   .navbar ul {
-    flex-direction: column; /* Links em coluna */
-    align-items: center; /* Centraliza os itens */
-    gap: 15px; /* Reduz o espaçamento entre links */
+    display: grid; /* Ativa o Grid */
+    grid-template-columns: 1fr 1fr; /* Define duas colunas de largura igual */
+    justify-items: center; /* Centraliza os itens em cada célula */
+    gap: 15px; /* Espaçamento entre os itens */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove o margin padrão */
+    list-style: none; /* Remove o estilo padrão da lista */
   }
 }
