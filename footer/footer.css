@@ -23,6 +23,11 @@ html, body {
   background-color: #128c7e;
 }
 
+.p {
+  color: white;
+  font-size: 15px;
+}
+
 footer {
   background-image: linear-gradient(to bottom,darkblue, #1D3557); /* Gradiente no fundo */
   color: white;

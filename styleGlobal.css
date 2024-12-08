@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
   box-sizing: border-box; /* Garante que margens e bordas sejam incluídas na largura/altura */
 }
@@ -13,11 +15,21 @@ img, iframe, video {
 }
 
 html, body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Remove a rolagem horizontal */
   width: 100%; /* Garante que o conteúdo não ultrapasse a largura da viewport */
+}
+
+h2 {
+  font-size: 28px;
+  color: #222545;
+}
+
+p{
+  font-size: 18px;
+  color: #222545;
 }
 
 .container {
@@ -31,4 +43,14 @@ img {
   height: auto;
   display: block;
   margin: 20px auto;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2px auto;
+  }
 }
