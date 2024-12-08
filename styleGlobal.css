@@ -38,7 +38,7 @@ p, ul, li {
   color: #C9CED1;
 }
 
-a{
+a {
   color: #1D3557; /* Cor do texto */
   font-weight: bold; /* Texto em negrito */
   font-size: 1.1rem; /* Aumenta o tamanho da fonte */
@@ -67,4 +67,15 @@ img {
     display: block;
     margin: 2px auto;
   }
+
+  .container {
+    max-width: 768px;
+    margin: 20px auto;
+  }
+
+  p, h2, h6{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
+
