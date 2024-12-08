@@ -74,6 +74,14 @@ nav > a:hover {
   border-radius: 5px; /* Bordas arredondadas */
 }
 
+.navbar a.active {
+  background-color: #0056b3;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   header {

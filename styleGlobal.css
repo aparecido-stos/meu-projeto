@@ -16,7 +16,7 @@ img, iframe, video {
 
 html, body {
   font-family: "Roboto", Arial, sans-serif;
-  background-color: #eeeeee;
+  background-color: #55565A;
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Remove a rolagem horizontal */
@@ -25,25 +25,38 @@ html, body {
 
 h2 {
   font-size: 28px;
-  color: #222545;
+  color: #C9CED1;
 }
 
-p{
+h6 {
+  font-size: 15px;
+  color: #C9CED1;
+}
+
+p, ul, li {
   font-size: 18px;
-  color: #222545;
+  color: #C9CED1;
+}
+
+a{
+  color: #1D3557; /* Cor do texto */
+  font-weight: bold; /* Texto em negrito */
+  font-size: 1.1rem; /* Aumenta o tamanho da fonte */
+  padding: 5px 10px; /* Espaçamento interno */
+  transition: color 0.3s, background-color 0.3s; /* Animação ao passar o mouse */
 }
 
 .container {
   max-width: 800px;
   margin: 20px auto;
-  padding: 0 20px;
+  padding-top: 60px;
 }
 
 img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 /* Responsividade */
