@@ -16,9 +16,8 @@ header {
 
 h1 {
   font-size:30px;
-  padding: 0px;
-  margin-bottom: 0px;
   text-align: center;
+  margin: 5px;
 }
 
 nav {
@@ -80,7 +79,7 @@ nav > a:hover {
   header {
     text-align: center;
     padding: 2px;
-    background-image: linear-gradient(to bottom, darkblue, #1D3557);
+    background-image: linear-gradient(to top, darkblue, #1D3557);
     position: relative; /* Fixa a navbar na posição especificada */
     width: 100%; /* Navbar ocupa toda a largura */
   }
@@ -88,7 +87,7 @@ nav > a:hover {
   nav {
     display: flex; /* Ativa o Flexbox */
     justify-content: center; /* Centraliza os itens horizontalmente */
-    background-image: linear-gradient(to bottom, darkblue, #1D3557); /* Gradiente no fundo */
+    background-image: linear-gradient(to bottom, darkblue, #1D3557);
     padding: 10px 0; /* Espaçamento vertical */
     position: relative; /* Fixa a navbar na posição especificada */
     left: 0; /* Alinha ao início da página */

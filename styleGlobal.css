@@ -16,6 +16,7 @@ img, iframe, video {
 
 html, body {
   font-family: "Roboto", Arial, sans-serif;
+  background-color: #eeeeee;
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Remove a rolagem horizontal */
