@@ -74,6 +74,15 @@ nav > a:hover {
   border-radius: 5px; /* Bordas arredondadas */
 }
 
+i {
+  display: flex;
+  padding-left: 26%;
+}
+
+#data-hora {
+  padding-left: 2%;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   header {
@@ -102,5 +111,10 @@ nav > a:hover {
     padding: 0; /* Remove o padding padrão */
     margin: 0; /* Remove o margin padrão */
     list-style: none; /* Remove o estilo padrão da lista */
+  }
+
+  i {
+    display: flex;
+    padding-left: 1%;
   }
 }
