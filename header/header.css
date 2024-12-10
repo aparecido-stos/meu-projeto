@@ -74,9 +74,9 @@ nav > a:hover {
   border-radius: 5px; /* Bordas arredondadas */
 }
 
-i {
+#iconCalendar {
   display: flex;
-  padding-left: 26%;
+  padding-left: 1%;
 }
 
 #data-hora {
@@ -113,7 +113,7 @@ i {
     list-style: none; /* Remove o estilo padrão da lista */
   }
 
-  i {
+  #iconCalendar {
     display: flex;
     padding-left: 1%;
   }
