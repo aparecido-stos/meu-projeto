@@ -97,7 +97,7 @@ nav > a:hover {
   nav {
     display: flex; /* Ativa o Flexbox */
     justify-content: center; /* Centraliza os itens horizontalmente */
-    background-image: linear-gradient(to bottom, darkblue, #1D3557);
+    background-image: linear-gradient(to bottom, darkblue, #5b5c61);
     padding: 10px 0; /* Espaçamento vertical */
     position: relative; /* Fixa a navbar na posição especificada */
     left: 0; /* Alinha ao início da página */
@@ -112,6 +112,10 @@ nav > a:hover {
     padding: 0; /* Remove o padding padrão */
     margin: 0; /* Remove o margin padrão */
     list-style: none; /* Remove o estilo padrão da lista */
+  }
+
+  .container {
+    margin: -20px auto;
   }
 
   #iconCalendar {
