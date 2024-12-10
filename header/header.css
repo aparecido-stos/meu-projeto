@@ -76,10 +76,12 @@ nav > a:hover {
 
 #iconCalendar {
   display: flex;
+  font-size: 15px;
   padding-left: 24%;
 }
 
 #data-hora {
+  font-size: 15px;
   padding-left: 2%;
 }
 
@@ -87,7 +89,6 @@ nav > a:hover {
 @media (max-width: 768px) {
   header {
     text-align: center;
-    padding: 2px;
     background-image: linear-gradient(to top, darkblue, #1D3557);
     position: relative; /* Fixa a navbar na posição especificada */
     width: 100%; /* Navbar ocupa toda a largura */
@@ -115,6 +116,12 @@ nav > a:hover {
 
   #iconCalendar {
     display: flex;
+    font-size: 11px;
     padding-left: 1%;
+  }
+
+  #data-hora {
+    font-size: 11px;
+    padding-left: 2%;
   }
 }
