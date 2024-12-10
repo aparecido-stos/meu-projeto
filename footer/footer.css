@@ -22,7 +22,7 @@ html, body {
 }
 
 footer {
-  background-image: linear-gradient(to top,darkblue, #1D3557); /* Gradiente no fundo */
+  background-image: linear-gradient(to top,darkblue, #5b5c61); /* Gradiente no fundo */
   color: white;
   text-align: center;
   padding: 10px;

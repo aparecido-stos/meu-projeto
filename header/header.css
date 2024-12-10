@@ -23,7 +23,7 @@ h1 {
 nav {
   display: flex; /* Ativa o Flexbox */
   justify-content: center; /* Centraliza os itens horizontalmente */
-  background-image: linear-gradient(to bottom,darkblue, #1D3557); /* Gradiente no fundo */
+  background-image: linear-gradient(to bottom,darkblue, #5b5c61); /* Gradiente no fundo */
   padding: 10px 0; /* Espaçamento vertical */
   position: fixed; /* Fixa a navbar na posição especificada */
   left: 0; /* Alinha ao início da página */
