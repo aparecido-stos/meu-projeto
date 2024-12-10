@@ -6,19 +6,6 @@ html, body {
   width: 100%; /* Garante que o conteúdo não ultrapasse a largura da viewport */
 }
 
-.contact-button {
-  display: block;
-  width: 100%;
-  max-width: 200px;
-  margin: 20px auto;
-  padding: 10px 20px;
-  background-color: #25d366;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
 .contact-button:hover {
   background-color: #128c7e;
 }
@@ -28,6 +15,12 @@ html, body {
   font-size: 15px;
 }
 
+.btnFooter {
+  color: #001f7f; /* Altera a cor do texto ao passar o mouse */
+  background: #fff; /* Fundo branco no hover */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
 footer {
   background-image: linear-gradient(to bottom,darkblue, #1D3557); /* Gradiente no fundo */
   color: white;
@@ -35,4 +28,18 @@ footer {
   padding: 10px;
   bottom: 0;
   width: 100%;
+}
+
+footer > a {
+  color: white;
+  margin: 10px;
+  max-width: 200px;
+  text-decoration: none;
+  font-weight: bolder;
+  text-decoration: none; /* Remove o sublinhado dos links */
+  
+}
+
+hr {
+  margin-bottom: 20px;
 }
