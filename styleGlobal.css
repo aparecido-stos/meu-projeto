@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box; /* Garante que margens e bordas sejam incluídas na largura/altura */
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .container {
@@ -15,8 +16,7 @@ img, iframe, video {
 }
 
 html, body {
-  font-family: "Roboto", Arial, sans-serif;
-  background-color: #5b5c61;
+  background-color: whitesmoke
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Remove a rolagem horizontal */
@@ -25,17 +25,17 @@ html, body {
 
 h2 {
   font-size: 28px;
-  color: #C9CED1;
+  color: #5a5a5a;
 }
 
 h6 {
   font-size: 15px;
-  color: #C9CED1;
+  color: #5a5a5a;
 }
 
 p, ul, li {
   font-size: 18px;
-  color: #C9CED1;
+  color: #5a5a5a;
 }
 
 a {
@@ -76,6 +76,11 @@ img {
   p, h2, h6{
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  p, ul, li {
+    font-size: 14px;
+    color: #5a5a5a;
   }
 }
 
